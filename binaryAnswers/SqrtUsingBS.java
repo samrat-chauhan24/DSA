@@ -1,4 +1,4 @@
-package binarysearch1d.binaryonanswers;
+package binaryAnswers;
 public class SqrtUsingBS {
     static int sqrtnorm( int target){
         int sqrt = Integer.MIN_VALUE;
