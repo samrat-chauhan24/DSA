@@ -1,5 +1,5 @@
 package linkedLIstEasy;
-import java.lang.classfile.constantpool.IntegerEntry;
+
 import java.util.Stack;
 class ListNode {
     int val;
