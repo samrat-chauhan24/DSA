@@ -5,11 +5,11 @@ class ListNode{
     ListNode next;
     ListNode(int val1, ListNode next1){
         this.val = val1;
-        ListNode next = null;
+        this.next = null;
     }
     ListNode(int val1){
         this.val = val1;
-        ListNode next = null;
+        this.next = null;
     }
 }
 public class StartOfALoop {
