@@ -26,8 +26,9 @@ public class AddTwoNums {
                 sum += l2.val;
                 l2 = l2.next;
             }
-            carry = sum / 10;
-            sum = sum%10;
+            // length of lsit doesn't matters, at each iteration create a new node for sum
+            carry = sum / 10; // will give the quotient
+            sum = sum % 10; // will gvie the last digit
             temp.next = new ListNode(sum);
             temp = temp.next;
         }
