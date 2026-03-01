@@ -26,7 +26,7 @@ public class RecursiveAtoi {
         if(idxOfStr >= n || !Character.isDigit(s.charAt(idxOfStr))) return result * sign;
         //!Character.isDigit(idxOfStr), this will trigger when there's is first non digit char
 
-        int digit = s.charAt(idxOfStr); // it will store the ascii value, it must be converted to num
+        //int digit = s.charAt(idxOfStr); // it will store the ascii value, it must be converted to num
         
         int digit2 = s.charAt(idxOfStr) - '0';
         // handle overFlow situtaion 
