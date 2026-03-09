@@ -22,8 +22,9 @@ The goal of this repository is to build strong problem-solving skills, understan
 * Strings
 * Recursion
 * Linked List
-* Two Pointer Technique
+* Two Pointer Technique(in problems, not a standalone package)
 * Binary Search
+* Stack and Queues
 * (now i switched to leetCode full time)
 ---
 
